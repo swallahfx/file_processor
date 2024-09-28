@@ -25,7 +25,7 @@ missing records, and generate comprehensive reports.
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:swallahfx/file_processor.git
    cd file_processor
    ```
 
@@ -41,7 +41,6 @@ missing records, and generate comprehensive reports.
    ```
 
 4. **Set up the database:**
-   - Ensure your database settings are configured in `file_processor/settings.py`.
    - Run the migrations:
    ```bash
    python manage.py migrate
